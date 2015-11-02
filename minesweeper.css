@@ -80,6 +80,9 @@ div {
 	padding-left: 60px;  
 }
 
+.new {
+	position: relative;
+}
 .empty {
 	background-color: #fff;
 }

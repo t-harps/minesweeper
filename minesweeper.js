@@ -146,6 +146,13 @@ function squareClick(){
 	});
 }
 
+function newGame(){
+	$(".new").click(function(evt){
+		$('.container').empty();
+		main();
+	});
+}
+
 function clear(currentId){
 	var cI = +currentId;
 	var queue = [cI];
@@ -239,7 +246,7 @@ function win(){
 		}
 	}
 	if (count===0){
-		$('body').append($("<div id='lose'>YOU WIN</div>"));
+		$('.container').append($("<div id='lose'>YOU WIN</div>"));
 	}
 	console.log(count);
 }
@@ -259,10 +266,11 @@ function init() {
 
 function update() {
 	squareClick();
+	newGame();
 }
 
 function lose() {
-	$('body').append($("<div id='lose'>YOU LOSE</div>"));
+	$('.container').append($("<div id='lose'>YOU LOSE</div>"));
 }
 
 
