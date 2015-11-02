@@ -1,0 +1,110 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+div {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.container {
+	position: relative;
+	border: 3px solid black;
+	height: 366px;
+	width: 366px;
+}
+
+.box {
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	height: 40px;
+	width: 40px;
+}
+
+#lose {
+	position: absolute;
+  font-size: 50px;
+  left: 0;
+  top: 0;
+  height: 360px;
+	width: 363px;
+	padding-top: 140px;
+	padding-left: 60px;  
+}
+
+.empty {
+	background-color: #fff;
+}
+
+.bomb {
+	background-color:  red;
+}
+
+.near {
+	background-color: #fff;
+}
+
+.number {
+	position: absolute;
+	left: 15px;
+	top: 20px;
+}
+
+.score {
+	position: absolute;
+	left: 450px;
+}
+
+.hid {
+  background-color: grey;
+  color: grey;
+}
+
