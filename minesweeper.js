@@ -246,9 +246,12 @@ function win(){
 		}
 	}
 	if (count===0){
-		$('.container').append($("<div id='lose'>YOU WIN</div>"));
+		$('.container').append($("<div id='message'>YOU WIN</div>"));
 	}
-	console.log(count);
+}
+
+function lose() {
+	$('.container').append($("<div id='message'>YOU LOSE</div>"));
 }
 
 function main() {
@@ -269,9 +272,7 @@ function update() {
 	newGame();
 }
 
-function lose() {
-	$('.container').append($("<div id='lose'>YOU LOSE</div>"));
-}
+
 
 
 $(document).ready(function(){

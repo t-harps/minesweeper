@@ -69,16 +69,7 @@ div {
 	width: 40px;
 }
 
-#lose {
-	position: absolute;
-  font-size: 50px;
-  left: 0;
-  top: 0;
-  height: 360px;
-	width: 363px;
-	padding-top: 140px;
-	padding-left: 60px;  
-}
+
 
 .new {
 	position: relative;
@@ -109,5 +100,16 @@ div {
 .hid {
   background-color: grey;
   color: grey;
+}
+
+#message {
+	position: absolute;
+  font-size: 50px;
+  left: 0;
+  top: 0;
+  height: 360px;
+	width: 363px;
+	padding-top: 184px;
+	padding-left: 60px;  
 }
 
